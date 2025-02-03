@@ -1,0 +1,102 @@
+body {
+    background: linear-gradient(#0074c2, #04b9bf);
+    background: linear-gradient(#002137, #0074c2);
+    background-attachment: fixed;
+    font-family: Tahoma;
+    font-size: 16px;
+    color: white;
+  
+    padding: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+}
+  
+.content {
+  padding: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  }
+
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+  }
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+  }
+
+.white-line {
+    height: 1px;
+    background-color: white; 
+    border: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.centered-text {
+    text-align: center;
+  }
+
+a {
+    color: white;
+  }
+
+.project {
+  display: inline-block;  
+  width: 30%;
+  padding: 5px;
+}  
+
+.project img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+
+fieldset {
+    border: none;
+    padding-bottom: 3em; 
+  }
+  
+fieldset:last-of-type {
+    padding-bottom: 0; 
+  }
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+input, textarea, select {
+    margin: 2px 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+input, textarea {
+    background-color: #002137;
+    border: 1px solid #002137;
+    color: #e6e6e6;
+  }
+  
+input[type="submit"] {
+    display: block;
+    margin: 0;
+    height: 2em;
+    font-size: 1.4rem;
+    background-color: #002137;
+    min-width: 300px;
+  }
